@@ -22,7 +22,7 @@ Scaling agents becomes trivial. A quick demo:
 
 ## Context: git worktrees
 
-AI agents like Claude Code and Codex can handle longer tasks without
+AI agents like Claude Code, GitHub Copilot, and Codex can handle longer tasks without
 supervision, such that it's possible to manage 5-10+ in parallel. Git's native
 worktree feature give each agent its own working directory, so they don't step
 on each other's changes.

@@ -1,0 +1,1 @@
+../../../../.claude-plugin/skills/worktrunk/reference/project-config.md
