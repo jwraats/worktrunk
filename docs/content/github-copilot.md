@@ -93,9 +93,9 @@ Each worktree can have an independent Copilot session in a separate IDE window.
 |---------|-------------|----------------|
 | CLI launch | `wt switch -c -x claude` | `wt switch -c -x copilot` |
 | Configuration skill | ✅ `.claude-plugin/skills/` | ✅ `.github/skills/` |
-| Activity tracking | ✅ 🤖/💬 markers | ❌ Not available |
-| Statusline | ✅ `wt list statusline --claude-code` | ❌ Not available |
-| Plugin marketplace | ✅ Available | ❌ N/A |
+| Activity tracking | ✅ 🤖/💬 markers | — |
+| Statusline | ✅ `wt list statusline --claude-code` | — |
+| Plugin marketplace | ✅ Available | — |
 
 Both integrations share the same skill content — the configuration guidance and reference documentation is identical.
 
