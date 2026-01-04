@@ -116,8 +116,8 @@ cargo install worktrunk && wt config shell install
 - Learn the core commands: [wt switch](@/switch.md), [wt list](@/list.md), [wt merge](@/merge.md), [wt remove](@/remove.md)
 - Set up [project hooks](@/hook.md) for automated setup
 - Explore [LLM commit messages](@/llm-commits.md), [fzf-like
-  selector](@/select.md), [Claude Code integration](@/claude-code.md), [GitHub
-  Copilot integration](@/github-copilot.md), [CI status & PR links](@/list.md#ci-status)
+  selector](@/select.md), [Claude Code integration](@/claude-code.md), [CI
+  status & PR links](@/list.md#ci-status)
 - Run `wt --help` or `wt <command> --help` for quick CLI reference
 
 ## Further reading

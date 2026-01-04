@@ -120,8 +120,8 @@ cargo install worktrunk && wt config shell install
 - Learn the core commands: [wt switch](https://worktrunk.dev/switch/), [wt list](https://worktrunk.dev/list/), [wt merge](https://worktrunk.dev/merge/), [wt remove](https://worktrunk.dev/remove/)
 - Set up [project hooks](https://worktrunk.dev/hook/) for automated setup
 - Explore [LLM commit messages](https://worktrunk.dev/llm-commits/), [fzf-like
-  selector](https://worktrunk.dev/select/), [Claude Code integration](https://worktrunk.dev/claude-code/), [GitHub
-  Copilot integration](https://worktrunk.dev/github-copilot/), [CI status & PR links](https://worktrunk.dev/list/#ci-status)
+  selector](https://worktrunk.dev/select/), [Claude Code integration](https://worktrunk.dev/claude-code/), [CI
+  status & PR links](https://worktrunk.dev/list/#ci-status)
 - Run `wt --help` or `wt <command> --help` for quick CLI reference
 
 ## Further reading

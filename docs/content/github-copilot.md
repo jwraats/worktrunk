@@ -101,17 +101,38 @@ Both integrations share the same skill content — the configuration guidance an
 
 ## Installation
 
-### Copilot CLI
+### Prerequisites
+
+- A [GitHub Copilot subscription](https://github.com/features/copilot) (Pro, Pro+, Business, or Enterprise)
+- Node.js v22 or later
+- npm v10 or later
+
+### Installing Copilot CLI
+
+**Using npm (recommended):**
 
 ```bash
 npm install -g @github/copilot
 ```
 
-Then authenticate:
+**Using Homebrew (macOS/Linux):**
+
+```bash
+brew install github/copilot/copilot
+```
+
+### Authentication
+
+After installation, authenticate with your GitHub account:
+
 ```bash
 copilot
-# Use /login to authenticate with your GitHub account
+# Use /login to authenticate via browser
 ```
+
+Alternatively, set a personal access token with `GH_TOKEN` or `GITHUB_TOKEN` environment variable.
+
+For complete installation instructions and troubleshooting, see the [official Copilot CLI documentation](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli).
 
 ### Agent Skills
 
@@ -122,8 +143,7 @@ GitHub Copilot automatically detects skills in `.github/skills/` — no manual i
 
 ## Further Reading
 
-- [GitHub Copilot CLI](https://github.com/github/copilot-cli) — Official repository
-- [GitHub Copilot CLI documentation](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/use-copilot-cli)
-- [GitHub Copilot Agent Skills announcement](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/)
-- [VS Code Agent Skills documentation](https://code.visualstudio.com/docs/copilot/customization/agent-skills)
-- [Worktrunk documentation](https://worktrunk.dev)
+- [About GitHub Copilot CLI](https://docs.github.com/en/copilot/concepts/agents/about-copilot-cli) — Official documentation
+- [GitHub Copilot CLI repository](https://github.com/github/copilot-cli) — Source code and issues
+- [GitHub Copilot Agent Skills](https://github.blog/changelog/2025-12-18-github-copilot-now-supports-agent-skills/) — Skills announcement
+- [VS Code Agent Skills](https://code.visualstudio.com/docs/copilot/customization/agent-skills) — IDE integration
