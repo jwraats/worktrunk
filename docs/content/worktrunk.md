@@ -22,7 +22,7 @@ Scaling agents becomes trivial. A quick demo:
 
 ## Context: git worktrees
 
-AI agents like Claude Code and Codex can handle longer tasks without
+AI agents like Claude Code, GitHub Copilot, and Codex can handle longer tasks without
 supervision, such that it's possible to manage 5-10+ in parallel. Git's native
 worktree feature give each agent its own working directory, so they don't step
 on each other's changes.
@@ -116,8 +116,8 @@ cargo install worktrunk && wt config shell install
 - Learn the core commands: [wt switch](@/switch.md), [wt list](@/list.md), [wt merge](@/merge.md), [wt remove](@/remove.md)
 - Set up [project hooks](@/hook.md) for automated setup
 - Explore [LLM commit messages](@/llm-commits.md), [fzf-like
-  selector](@/select.md), [Claude Code integration](@/claude-code.md), [CI
-  status & PR links](@/list.md#ci-status)
+  selector](@/select.md), [Claude Code integration](@/claude-code.md), [GitHub
+  Copilot integration](@/github-copilot.md), [CI status & PR links](@/list.md#ci-status)
 - Run `wt --help` or `wt <command> --help` for quick CLI reference
 
 ## Further reading
